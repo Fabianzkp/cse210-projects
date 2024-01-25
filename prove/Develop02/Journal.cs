@@ -2,7 +2,7 @@ using System;
 using System.Collections.Generic;
 using System.IO;
 
-class JournalApp
+class Journal
 {
     private static List<Entry> entries = new List<Entry>();
     private static Random random = new Random();
