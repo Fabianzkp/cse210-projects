@@ -1,6 +1,6 @@
 using System;
 //I exceeded requirement by including a progress tracker to display the progress
-//percentage allong with the scripture verse.
+//percentage along with the scripture verse.
 
 namespace ScriptureApp
 {
