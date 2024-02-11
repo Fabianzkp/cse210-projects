@@ -1,22 +1,19 @@
+//To exceed requirement, I added a "Gratitude Activity" to help user cultivate the habit 
+//of gratitude. Users will have the option to start gratitude activity after 
+//completing any of the mindfulness activity. This is now option 4 in my program. 
 using System;
-using MathsApp;
-
-class Program
+namespace MindfulnessApp
 {
-    static void Main(string[] args)
+    class Program
     {
-        Console.WriteLine("Hello Develop04 World!");
-        Assignment assignment = new Assignment("Anana", "Fraction");
-        string summary = assignment.GetSummary();
-        Console.WriteLine(summary);
+        static void Main(string[] args)
+        {
+            Console.WriteLine("Hello Develop04 World!");
+            MindfulnessApp app = new MindfulnessApp();
+            app.Run();
 
-        MathAssignment mathAssignment = new MathAssignment("Anana Agwu", "Fraction", "7.3", "8-19");
-        string homework = mathAssignment.GetHomeworkList();
-        Console.WriteLine(homework);
-
-        WritingAssignment writingAssignment = new WritingAssignment("Mary Waters", "European History", "The Causes of World War II");
-        Console.WriteLine(writingAssignment.GetSummary());
-        Console.WriteLine(writingAssignment.GetWritingInformation());
-        
+            GratitudeActivity gratitudeActivity = new GratitudeActivity();
+            gratitudeActivity.Start();
+        }
     }
 }
