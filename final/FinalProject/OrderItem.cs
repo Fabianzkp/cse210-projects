@@ -1,4 +1,4 @@
-// OrderItem.cs
+
 // Class representing an item in an order
 class OrderItem
 {

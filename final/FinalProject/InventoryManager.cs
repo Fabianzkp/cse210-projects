@@ -1,3 +1,4 @@
+//InventoryManager
 using System.Collections.Generic;
 
 class InventoryManager

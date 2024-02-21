@@ -1,4 +1,4 @@
-// DigitalProduct.cs
+
 // Concrete class representing a digital product
 class DigitalProduct : InventoryItem
 {

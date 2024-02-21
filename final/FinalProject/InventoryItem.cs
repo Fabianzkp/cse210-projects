@@ -1,4 +1,4 @@
-// InventoryItem.cs
+
 using System;
 
 // Abstract class representing an inventory item

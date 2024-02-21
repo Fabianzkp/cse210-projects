@@ -1,4 +1,4 @@
-//This program is an Inventory Management System. It allows users to perform 
+//This my program is an Inventory Management System. It allows users to perform 
 //various operations related to managing inventory and orders.
 
 using System;
