@@ -14,7 +14,7 @@ class Program
     {
         DisplayMotivationalMessage(); // Display a motivational message
 
-        LoadData(); // Load saved data if any
+        LoadData(); // Load saved data
 
         bool exit = false;
         while (!exit)
